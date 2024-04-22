@@ -1,0 +1,122 @@
+.mainindex {
+  .topindex {
+    background-image: url('../../imagenes/veterinario-perro-curar-freepik.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 40rem;
+    width: 100%;
+
+    div {
+      margin-left: 450px;
+      justify-content: flex-start;
+      width: fit-content;
+      padding-inline-start: 0;
+      padding-inline-end: 0;
+      padding-top: 250px;
+      padding-left: 0;
+      flex-direction: column;
+
+      .indextext1 {
+        color: #f6f6f6;
+        width: 100%;
+        font-size: 80px;
+        font-weight: 600;
+        display: flex;
+        text-align: start;
+      }
+
+      .indextext2 {
+        color: #015480;
+        font-weight: 600;
+      }
+    }
+  }
+
+  div {
+    padding: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    flex-direction: column;
+
+    .indextext3 {
+      color: #015480;
+      font-size: 40px;
+      padding-bottom: 10px;
+    }
+
+    .indextext4 {
+      color: #131313;
+      font-size: 20px;
+    }
+  }
+
+  /*PARTE INFERIOR DE SERVICIOS*/
+  .servicios-info {
+    .servicios {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      padding: 40px;
+      font-size: 3rem;
+      font-weight: 600;
+      color: whitesmoke;
+      background-color: #015480;
+      border-bottom: #36b49a 2px solid;
+    }
+
+    .gridservicios {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      align-items: center;
+      margin: auto;
+      width: 100%;
+      padding-left: 80px;
+      padding-right: 80px;
+
+      div {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 70px;
+
+        .icon-servicios {
+          font-size: 60px;
+          color: #015480;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: auto;
+          transition: 1s;
+        }
+
+        .icon-servicios:hover {
+          font-size: 75px;
+        }
+
+        h4 {
+          color: #015480;
+          align-items: center;
+          justify-content: center;
+          margin: auto;
+          margin-top: 15px;
+          padding: 15px;
+          width: 100%;
+        }
+
+        p {
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          margin: auto;
+          padding: 15px;
+        }
+      }
+    }
+  }
+}

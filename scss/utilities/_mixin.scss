@@ -1,0 +1,22 @@
+@mixin fuentes-h($size, $weight, $color){
+    font-size: $size;
+    font-weight: $weight;
+    color:$color;
+}
+
+/*MIXIN INDEX*/
+.h1-index{
+    @include fuentes-h(35px, 400, #f6f6f6);
+}
+.p-index{
+    @include fuentes-h(20px, 500, #f6f6f6);
+}
+
+/*MIXIN CONTACTO*/
+.h-contacto{
+    @include fuentes-h(15px, 200, #f6f6f6);
+}
+
+    
+
+

@@ -1,0 +1,747 @@
+/*BASE*/
+* {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.body-index {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+/*LAYOUT*/
+.mainindex {
+  /*PARTE INFERIOR DE SERVICIOS*/
+}
+.mainindex .topindex {
+  background-image: url("../../imagenes/veterinario-perro-curar-freepik.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 40rem;
+  width: 100%;
+}
+.mainindex .topindex div {
+  margin-left: 450px;
+  justify-content: flex-start;
+  width: fit-content;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  padding-top: 250px;
+  padding-left: 0;
+  flex-direction: column;
+}
+.mainindex .topindex div .indextext1 {
+  color: #f6f6f6;
+  width: 100%;
+  font-size: 80px;
+  font-weight: 600;
+  display: flex;
+  text-align: start;
+}
+.mainindex .topindex div .indextext2 {
+  color: #015480;
+  font-weight: 600;
+}
+.mainindex div {
+  padding: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  flex-direction: column;
+}
+.mainindex div .indextext3 {
+  color: #015480;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.mainindex div .indextext4 {
+  color: #131313;
+  font-size: 20px;
+}
+.mainindex .servicios-info .servicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 40px;
+  font-size: 3rem;
+  font-weight: 600;
+  color: whitesmoke;
+  background-color: #015480;
+  border-bottom: #36b49a 2px solid;
+}
+.mainindex .servicios-info .gridservicios {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.mainindex .servicios-info .gridservicios div {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+.mainindex .servicios-info .gridservicios div .icon-servicios {
+  font-size: 60px;
+  color: #015480;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  transition: 1s;
+}
+.mainindex .servicios-info .gridservicios div .icon-servicios:hover {
+  font-size: 75px;
+}
+.mainindex .servicios-info .gridservicios div h4 {
+  color: #015480;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 15px;
+  padding: 15px;
+  width: 100%;
+}
+.mainindex .servicios-info .gridservicios div p {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+}
+
+.main-contacto {
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  height: auto;
+  background-color: #015480;
+}
+.main-contacto .contacto-petgo {
+  font-size: 40px;
+  padding: 80px;
+}
+.main-contacto .form-section {
+  padding: 0px;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+.main-contacto .form-section .form-control {
+  height: 2rem;
+  padding: 30px;
+}
+.main-contacto .form-section .text-input {
+  height: 13rem;
+}
+
+.main-aplicacion {
+  background-image: url("../../imagenes/PETGO-FONDO.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+}
+.main-aplicacion .texto-app {
+  display: none;
+}
+.main-aplicacion div .apple {
+  height: 50px;
+  width: 200px;
+  position: absolute;
+  top: 500px;
+  left: 200px;
+  cursor: pointer;
+}
+.main-aplicacion div .android {
+  height: 50px;
+  width: 200px;
+  position: absolute;
+  top: 550px;
+  left: 200px;
+  cursor: pointer;
+}
+
+.grid-footer {
+  border-top: #00a6a6 solid 2px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 100%;
+  padding-top: 15px;
+  background-color: #015480;
+  z-index: 1000;
+}
+.grid-footer .grid-footerp {
+  color: #f6f6f6;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 15px;
+}
+.grid-footer .grid-footer-red {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0;
+}
+.grid-footer .grid-footer-red .grid-red {
+  height: 25px;
+  margin: 15px;
+  margin-left: 5px;
+  transition: 1s;
+  cursor: pointer;
+}
+.grid-footer .grid-footer-red .grid-red:hover {
+  height: 30px;
+}
+
+.grid-footer-aplicacion {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 100%;
+  padding-top: 15px;
+  background-color: #015480;
+  z-index: 1000;
+}
+.grid-footer-aplicacion .grid-footerp {
+  color: #f6f6f6;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 15px;
+}
+.grid-footer-aplicacion .grid-footer-red {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0;
+}
+.grid-footer-aplicacion .grid-footer-red .grid-red {
+  height: 25px;
+  margin: 15px;
+  margin-left: 5px;
+  transition: 1s;
+  cursor: pointer;
+}
+.grid-footer-aplicacion .grid-footer-red .grid-red:hover {
+  height: 30px;
+}
+
+.header {
+  color: #00a6a6;
+  border-bottom: 2px solid;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+.header .logo {
+  margin: 12px;
+  width: 4rem;
+}
+.header nav {
+  margin: auto;
+  padding: 0;
+  align-items: center;
+  text-align: center;
+}
+.header nav ul {
+  list-style: none;
+  display: flex;
+  margin: auto;
+  padding: 0px;
+}
+.header nav ul li {
+  margin: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.header nav ul li a {
+  color: #00a6a6;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.header nav ul li .nav-menu {
+  display: flex;
+  transition: 0.5s;
+}
+.header nav ul li .nav-menu:hover {
+  border-bottom: orange 2px solid;
+}
+.header nav ul li .navbar {
+  display: none;
+}
+
+/*UTILITES*/
+/*MIXIN INDEX*/
+.h1-index {
+  font-size: 35px;
+  font-weight: 400;
+  color: #f6f6f6;
+}
+
+.p-index {
+  font-size: 20px;
+  font-weight: 500;
+  color: #f6f6f6;
+}
+
+/*MIXIN CONTACTO*/
+.h-contacto {
+  font-size: 15px;
+  font-weight: 200;
+  color: #f6f6f6;
+}
+
+/* Variables*/
+.grid-section {
+  background-color: rgba(235, 235, 235, 0.922);
+}
+
+.list-h {
+  background-color: rgba(235, 235, 235, 0.922);
+}
+
+/*MEDIA QUERIES*/
+@media (min-width: 320px) and (max-width: 650px) {
+  body {
+    font-size: 10px;
+  }
+  body .header {
+    text-align: center;
+  }
+  body .header .logo {
+    width: 3rem;
+  }
+  body .header nav {
+    margin-right: 15px;
+  }
+  body .header nav ul li {
+    padding: 10px;
+  }
+  body .header nav ul li .nav-menu {
+    display: none;
+  }
+  body .header nav ul li .collapse {
+    display: flex;
+    justify-content: end;
+  }
+  body .header nav ul li .navbar-nav {
+    display: flex;
+    justify-content: end;
+  }
+  body .header nav ul li .navbar {
+    display: flex;
+    justify-content: end;
+  }
+  /*QUERIE  INDEX*/
+  body .mainindex {
+    width: 100%;
+  }
+  body .mainindex .topindex {
+    height: 100%;
+  }
+  body .mainindex .topindex div {
+    margin: auto;
+    padding-top: 150px;
+  }
+  body .mainindex .topindex div .indextext1 {
+    font-size: 60px;
+    font-weight: 600;
+  }
+  body .mainindex .topindex div .indextext2 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  body .mainindex .midindex {
+    padding: 50px 30px 50px 30px;
+  }
+  body .mainindex .midindex .indextext3 {
+    font-size: 15px;
+  }
+  body .mainindex .midindex .indextext4 {
+    font-size: 15px;
+  }
+  body .mainindex .servicios-info .servicios {
+    font-size: 2rem;
+  }
+  body .mainindex .servicios-info .gridservicios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 5px;
+    padding-right: 5px;
+    width: fit-content;
+  }
+  body .mainindex .servicios-info .gridservicios div {
+    padding: 15px;
+  }
+  body .mainindex .servicios-info .gridservicios div .icon-servicios {
+    font-size: 30px;
+  }
+  body .mainindex .servicios-info .gridservicios div .icon-servicios:hover {
+    font-size: 40px;
+  }
+  /*FOOTER*/
+  .grid-footerp {
+    font-size: 10px;
+  }
+  .grid-footer-red {
+    margin: auto;
+  }
+  .grid-footer-red .grid-red {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .grid-red:hover {
+    width: 2rem;
+    height: 2rem;
+  }
+  /*QUERIE  CONTACTO*/
+  .main-contacto .h-contacto .contacto-petgo {
+    font-size: 15px;
+  }
+  .main-contacto .h-contacto .parrafo-petgo {
+    font-size: 10px;
+  }
+  .form-section .form-floating {
+    max-width: 300px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+  }
+  .form-section .form-floating textarea {
+    font-size: 10px;
+  }
+  /*QUERIE APLICACION*/
+  .main-aplicacion {
+    background-image: url(../../imagenes/PETGO-SMALL.png);
+  }
+  .main-aplicacion .texto-app {
+    display: block;
+  }
+  .main-aplicacion .texto-app h5 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    color: #EAEAEA;
+    font-size: 80px;
+    font-weight: 900;
+  }
+  .main-aplicacion .texto-app .confianza {
+    display: flex;
+    color: aqua;
+    font-size: 35px;
+    color: #EAEAEA;
+    font-weight: 800;
+    display: flex;
+    margin: auto;
+    padding-top: 300px;
+    text-align: center;
+  }
+  .main-aplicacion div .apple {
+    display: none;
+  }
+  .main-aplicacion div .android {
+    display: none;
+  }
+}
+@media (min-width: 651px) and (max-width: 768px) {
+  /* NAVBAR */
+  body .header nav ul li .nav-menu {
+    font-size: 20px;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+  .collapse {
+    display: none;
+  }
+  /*QUERIE INDEX*/
+  body .mainindex .topindex div {
+    margin: auto;
+    padding: auto;
+  }
+  body .mainindex .servicios-info .servicios {
+    font-size: 2rem;
+  }
+  body .mainindex .servicios-info .gridservicios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 5px;
+    padding-right: 5px;
+    width: fit-content;
+  }
+  body .mainindex .servicios-info .gridservicios div {
+    padding: 15px;
+  }
+  body .mainindex .servicios-info .gridservicios div .icon-servicios {
+    font-size: 30px;
+  }
+  body .mainindex .servicios-info .gridservicios div .icon-servicios:hover {
+    font-size: 40px;
+  }
+  /*QUERIE CONTACTO*/
+  .main-contacto .h-contacto .contacto-petgo {
+    font-size: 20px;
+  }
+  .main-contacto .h-contacto .parrafo-petgo {
+    font-size: 10px;
+  }
+  .main-contacto .form-section {
+    margin: auto;
+  }
+  .main-contacto .form-section .form-control {
+    max-width: 100%;
+    height: auto;
+  }
+  /*QUERIE APLICACION*/
+  .main-aplicacion {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../imagenes/PETGO-SMALL.png");
+    height: 100vh;
+    width: 100vw;
+  }
+  .main-aplicacion .texto-app {
+    display: block;
+  }
+  .main-aplicacion .texto-app h5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    color: #EAEAEA;
+    font-size: 80px;
+    font-weight: 900;
+  }
+  .main-aplicacion .texto-app .confianza {
+    display: flex;
+    font-size: 35px;
+    color: #EAEAEA;
+    font-weight: 800;
+    display: flex;
+    margin: auto;
+    padding-top: 350px;
+    text-align: center;
+    justify-content: center;
+  }
+  .main-aplicacion div .apple {
+    display: none;
+  }
+  .main-aplicacion div .android {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    /*APLICACION*/
+  }
+  body .navbar-toggler {
+    display: none;
+  }
+  body .collapse {
+    display: none;
+  }
+  body .mainindex .topindex div {
+    margin-left: 100px;
+    padding: auto;
+  }
+  body .mainindex .topindex div .indextext1 {
+    font-weight: 600;
+    margin-top: 40px;
+  }
+  body .mainindex .topindex div .indextext2 {
+    font-weight: 600;
+  }
+  body .mainindex .midindex {
+    padding: 50px 30px 50px 30px;
+  }
+  body .mainindex .midindex .indextext3 {
+    font-size: 15px;
+  }
+  body .mainindex .midindex .indextext4 {
+    font-size: 15px;
+  }
+  body .mainindex .gridservicios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 5px;
+    padding-right: 5px;
+    width: fit-content;
+  }
+  body .mainindex .gridservicios div {
+    padding: 15px;
+  }
+  body .mainindex .gridservicios div .icon-servicios {
+    font-size: 30px;
+  }
+  body .mainindex .gridservicios div .icon-servicios:hover {
+    font-size: 40px;
+  }
+  body .main-aplicacion {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../imagenes/PETGO-FONDO.png");
+    height: 100vh;
+    width: 100vw;
+  }
+  body .main-aplicacion .texto-app {
+    display: block;
+  }
+  body .main-aplicacion .texto-app h5 {
+    display: none;
+  }
+  body .main-aplicacion .texto-app .confianza {
+    display: none;
+  }
+  body .main-aplicacion div .apple {
+    display: flex;
+    top: 650px;
+    left: 200px;
+  }
+  body .main-aplicacion div .android {
+    display: flex;
+    top: 650px;
+    left: 400px;
+  }
+}
+/*COMPONENTES*/
+.botones-cerrar-sesion {
+  display: block;
+  border-radius: 5px;
+  border: 2px solid #e00000;
+  padding: 1em;
+  width: 300px;
+  top: 200px;
+  margin: 2px;
+  background-color: aliceblue;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 5px;
+  color: #e00000;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.botones-cerrar-sesion:hover {
+  color: #F6F6F6;
+  background-color: #e00000;
+}
+
+.botones-perfil {
+  display: block;
+  border-radius: 5px;
+  border: 1px solid aliceblue;
+  padding: 1em;
+  width: 300px;
+  top: 200px;
+  margin: 2px;
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.botones-perfil:hover {
+  color: #F6F6F6;
+  background-color: #1c7e9f;
+  border: #1c7e9f;
+}
+
+/*BOTOENES CONTACTO*/
+.button-contacto {
+  border-radius: 5px;
+  border: none;
+  transition: 1s;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+  padding: 10px;
+}
+
+.button-contacto:active {
+  background-color: #1c7e9f;
+  color: #F6F6F6;
+}
+
+/*BOTON NAVBAR*/
+header nav ul section div .navbar-toggler {
+  right: 5px;
+  color: #1c7e9f;
+}
+
+.form-section {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.form-section .form-floating {
+  width: 400px;
+  margin: auto;
+}
+.form-section .text-input {
+  color: grey;
+  height: fit-content;
+}
+
+div {
+  width: 100%;
+  right: 0px;
+}
+div .navbar-nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+div .navbar-nav .nav-item {
+  display: flex;
+  width: 100%;
+}
+div .navbar-nav .nav-item .nav-link {
+  display: flex;
+  margin: auto;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1c7e9f;
+}
+div .navbar-nav .nav-item .nav-link:hover {
+  font-weight: bold;
+}
+div .navbar-nav .nav-item .activated {
+  font-weight: 600;
+  border-bottom: 1px solid orange;
+}
+
+/*# sourceMappingURL=style.css.map */

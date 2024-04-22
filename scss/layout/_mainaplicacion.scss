@@ -1,0 +1,31 @@
+.main-aplicacion{
+  background-image: url('../../imagenes/PETGO-FONDO.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  .texto-app{ display: none;
+
+  }
+  div {
+    .apple {
+     height: 50px;
+     width: 200px;
+     position: absolute;
+     top: 500px;
+     left: 200px;
+     cursor: pointer;
+    }
+
+    .android {
+     height: 50px;
+     width: 200px;
+     position: absolute;
+     top: 550px;
+     left: 200px;
+     cursor: pointer;
+    }
+  }
+}
+  

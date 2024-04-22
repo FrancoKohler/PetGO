@@ -1,0 +1,95 @@
+@media (min-width: 768px) and (max-width: 1024px){
+body{
+    .navbar-toggler{
+        display: none;
+      }
+      .collapse{
+        display: none;
+      }
+      
+        .mainindex{
+            .topindex{
+            div{
+                margin-left: 100px;
+                padding: auto;
+                
+                .indextext1{
+                    font-weight: 600;
+                    margin-top: 40px;
+                    
+                }
+                .indextext2{
+                    font-weight: 600;
+                    
+                    
+                }
+
+
+            }
+        }
+        .midindex{
+            padding:50px 30px 50px 30px;
+             
+             .indextext3{
+                 font-size: 15px;
+             }
+             .indextext4{
+                 font-size: 15px;
+             }
+          
+          }
+          .gridservicios{
+            display: grid;
+            grid-template-columns:repeat(2,1fr);
+            padding-left: 5px;
+            padding-right: 5px;
+            width: fit-content;
+            div{
+                padding: 15px;
+                .icon-servicios{
+                    font-size: 30px;
+                }
+                .icon-servicios:hover{
+                    font-size: 40px;
+                }
+             
+            }
+            }
+    }
+
+    /*APLICACION*/
+    .main-aplicacion {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url("../../imagenes/PETGO-FONDO.png");
+        height: 100vh;
+        width: 100vw;
+        .texto-app{display:block;
+       
+          h5{
+          display:none;
+          }
+          .confianza{
+          display:none;
+          
+      }
+         }
+          div {
+              .apple {
+                display: flex;
+                top: 650px;
+                left: 200px;
+              }
+          
+              .android {
+                display: flex;
+                top: 650px;
+                left: 400px;
+              }
+            }
+          
+        
+      }
+    }
+}

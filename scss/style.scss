@@ -1,0 +1,25 @@
+/*BASE*/
+@import "base/reset";
+
+/*LAYOUT*/
+@import "layout/mainindex";
+@import "layout/maincontacto";
+@import "layout/mainaplicacion";
+@import "layout/footer";
+@import "layout/header.scss";
+
+/*UTILITES*/
+@import "utilities/mixin";
+@import "utilities/variables";
+
+/*MEDIA QUERIES*/
+@import "layout/mediaquerie320-650";
+@import "layout/mediaquerie651-768";
+@import "layout/mediaquerie769-991";
+
+/*COMPONENTES*/
+@import "componentes/botones";
+@import "componentes/form";
+@import "componentes/navbar"
+
+

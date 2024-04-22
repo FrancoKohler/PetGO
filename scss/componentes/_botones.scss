@@ -1,0 +1,85 @@
+.botones-cerrar-sesion{
+  display: block;
+  border-radius: 5px;
+  border: 2px solid #e00000;
+  padding: 1em;
+  width:300px;  
+  top: 200px;
+  margin: 2px;
+  background-color: aliceblue;
+  align-items: center;
+  padding: 10px 20px;
+          font-size: 16px;
+          font-weight: 500;
+          margin: 5px;
+          color: #e00000;
+  transition: 1s;
+  cursor: pointer;
+}
+.botones-cerrar-sesion:hover{
+  color: #F6F6F6;
+  background-color: #e00000;
+}
+
+.botones-perfil { display: block;
+  border-radius: 5px;
+  border: 1px solid aliceblue;
+  padding: 1em;
+  width:300px;  
+  top: 200px;
+  margin: 2px;
+  background-color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: 1s;
+  cursor: pointer;
+}
+.botones-perfil:hover{
+  color: #F6F6F6;
+  background-color: #1c7e9f;
+  border: #1c7e9f;
+}
+
+
+
+/*BOTOENES CONTACTO*/
+.button-contacto{
+  border-radius: 5px;
+  border: none;
+  transition: 1s;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.6);
+  padding: 10px;
+}
+.button-contacto:active{
+  background-color: #1c7e9f;
+  color: #F6F6F6;
+}
+
+
+/*BOTON NAVBAR*/
+
+header{
+  nav{
+    ul{
+      section{
+        div{
+          .navbar-toggler{
+            right: 5px;
+            color: #1c7e9f;
+            }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+  
+    
+      
+      
+      
+        
+        

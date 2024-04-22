@@ -1,0 +1,205 @@
+@media (min-width: 320px) and (max-width: 650px) {
+    body {font-size: 10px;
+        .header {
+            text-align: center;
+            .logo {
+                width: 3rem;
+               
+               
+            }
+            nav {
+                margin-right: 15px;
+                ul { 
+                    li { padding: 10px;
+                        
+                        
+                        .nav-menu {
+                            display: none;
+                        }
+                        .collapse{
+                            display: flex;
+                            justify-content: end;
+                            
+                         
+                        }
+                        .navbar-nav{
+                            display: flex;
+                            justify-content: end;
+                            
+                        }
+                        .navbar {
+                            display: flex;
+                            justify-content: end;
+                            
+                            
+                        }
+                       
+                    }
+                }
+
+                
+            }
+        }
+    }
+
+    
+       
+
+        /*QUERIE  INDEX*/
+
+    body 
+    {
+    .mainindex{
+        
+        width: 100%;
+        .topindex{
+            height: 100%;
+            div{margin: auto ;
+                padding-top: 150px;
+                
+            .indextext1{
+                font-size: 60px;
+                font-weight: 600;
+                
+            }
+            .indextext2{
+                font-size: 20px;
+                font-weight: 600;
+                
+            }
+         }
+        }
+         .midindex{
+           padding:50px 30px 50px 30px;
+            
+            .indextext3{
+                font-size: 15px;
+            }
+            .indextext4{
+                font-size: 15px;
+            }
+         
+         }
+         .servicios-info{
+            .servicios{
+                font-size: 2rem;
+            }
+            .gridservicios{
+            display: grid;
+            grid-template-columns:repeat(2,1fr);
+            padding-left: 5px;
+            padding-right: 5px;
+            width: fit-content;
+            div{
+                padding: 15px;
+                .icon-servicios{
+                    font-size: 30px;
+                }
+                .icon-servicios:hover{
+                    font-size: 40px;
+                }
+             
+            }
+            }
+         }
+     
+    }
+}
+    /*FOOTER*/
+        
+    
+    
+
+.grid-footerp{
+    font-size: 10px;
+}
+
+.grid-footer-red{
+    margin: auto;
+    
+    
+    
+.grid-red{
+    width: 1.5rem;
+    height: 1.5rem;
+    
+    }
+}
+.grid-red:hover{
+    width: 2rem;
+    height: 2rem;
+}
+
+
+
+
+
+
+/*QUERIE  CONTACTO*/
+.main-contacto{
+
+    .h-contacto
+    {
+        .contacto-petgo{
+            font-size: 15px;
+        }
+        .parrafo-petgo{
+            font-size: 10px;
+        }
+    }
+    }
+    .form-section{
+       
+        .form-floating{
+            max-width:300px;
+            height: auto;
+            align-items: center;
+            text-align: center;
+            textarea{
+                font-size: 10px
+            }
+            
+        }
+    }
+
+
+/*QUERIE APLICACION*/
+.main-aplicacion{
+    background-image: url(../../imagenes/PETGO-SMALL.png);
+   .texto-app{display:block;
+   
+    h5{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    color: #EAEAEA;
+    font-size: 80px;
+    font-weight: 900;
+    }
+    .confianza{
+    display: flex;
+    color: aqua;
+    font-size: 35px;
+    color: #EAEAEA;
+    font-weight: 800;
+    display: flex;
+    margin: auto;
+    padding-top: 300px;
+    text-align: center;
+    
+}
+   }
+    div {
+        .apple {
+         display: none;
+        }
+    
+        .android {
+         display: none;
+        }
+      }
+}
+}
+
