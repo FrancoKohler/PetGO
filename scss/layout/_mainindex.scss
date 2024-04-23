@@ -1,6 +1,6 @@
 .mainindex {
   .topindex {
-    background-image: url(../../imagenes/veterinario-perro-curar-freepik.png);
+    background-image: url('/imagenes/veterinario-perro-curar-freepik.png');
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@
     }
   }
 
-  div {
+  .midindex {
     padding: 100px;
     margin: auto;
     display: flex;

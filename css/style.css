@@ -20,7 +20,7 @@ body {
   /*PARTE INFERIOR DE SERVICIOS*/
 }
 .mainindex .topindex {
-  background-image: url(../../imagenes/veterinario-perro-curar-freepik.png);
+  background-image: url("/imagenes/veterinario-perro-curar-freepik.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -49,7 +49,7 @@ body {
   color: #015480;
   font-weight: 600;
 }
-.mainindex div {
+.mainindex .midindex {
   padding: 100px;
   margin: auto;
   display: flex;
@@ -58,12 +58,12 @@ body {
   width: fit-content;
   flex-direction: column;
 }
-.mainindex div .indextext3 {
+.mainindex .midindex .indextext3 {
   color: #015480;
   font-size: 40px;
   padding-bottom: 10px;
 }
-.mainindex div .indextext4 {
+.mainindex .midindex .indextext4 {
   color: #131313;
   font-size: 20px;
 }
@@ -135,6 +135,7 @@ body {
 .main-contacto .contacto-petgo {
   font-size: 40px;
   padding: 80px;
+  color: #f6f6f6;
 }
 .main-contacto .form-section {
   padding: 0px;
@@ -150,7 +151,7 @@ body {
 }
 
 .main-aplicacion {
-  background-image: url(../../imagenes/PETGO-FONDO.png);
+  background-image: url("/imagenes/PETGO-FONDO.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -407,7 +408,7 @@ body {
   }
   /*QUERIE APLICACION*/
   .main-aplicacion {
-    background-image: url(../../imagenes/PETGO-SMALL.png);
+    background-image: url("/imagenes//PETGO-SMALL.png");
   }
   .main-aplicacion .texto-app {
     display: block;
@@ -494,7 +495,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url(../../imagenes/PETGO-SMALL.png);
+    background-image: url("/imagenes/PETGO-SMALL.png");
     height: 100vh;
     width: 100vw;
   }
@@ -578,7 +579,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url(../../imagenes/PETGO-FONDO.png);
+    background-image: url("/imagenes/PETGO-FONDO.png");
     height: 100vh;
     width: 100vw;
   }
