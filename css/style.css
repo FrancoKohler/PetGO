@@ -20,7 +20,7 @@ body {
   /*PARTE INFERIOR DE SERVICIOS*/
 }
 .mainindex .topindex {
-  background-image: url("../../imagenes/veterinario-perro-curar-freepik.JPG");
+  background-image: url("../../imagenes/veterinario-perro-curar-freepik.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@ body {
   padding-bottom: 10px;
 }
 .mainindex .midindex .indextext4 {
-  color: #131313;
+  color: #080808;
   font-size: 20px;
 }
 .mainindex .servicios-info .servicios {
