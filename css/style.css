@@ -20,12 +20,21 @@ body {
   /*PARTE INFERIOR DE SERVICIOS*/
 }
 .mainindex .topindex {
-  background-image: url("../../imagenes/veterinario-perro-curar-freepik.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   height: 40rem;
   width: 100%;
+}
+.mainindex .topindex div {
+  height: 0%;
+  width: 0%;
+}
+.mainindex .topindex div .imagen-fondo {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+  z-index: -1;
 }
 .mainindex .topindex div {
   margin-left: 450px;
@@ -33,7 +42,7 @@ body {
   width: fit-content;
   padding-inline-start: 0;
   padding-inline-end: 0;
-  padding-top: 250px;
+  padding-top: 100px;
   padding-left: 0;
   flex-direction: column;
 }
@@ -257,6 +266,7 @@ body {
   text-align: center;
   margin: auto;
   justify-content: center;
+  background-color: white;
 }
 .header .logo {
   margin: 12px;
@@ -337,6 +347,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  body .mainindex .topindex div .imagen-fondo {
+    height: 20rem;
+    top: 60px;
   }
   body .mainindex .topindex div {
     height: 100%;
