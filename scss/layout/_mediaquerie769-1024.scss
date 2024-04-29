@@ -61,8 +61,22 @@ body{
     .main-aplicacion {
         height: 100vh;
         width: 100%;
-        .texto-app{display:block;
-       
+        .texto-app{display:none;
+          div{
+            .imagen-aplicacion{
+              display: none;
+            }
+            .imagen-aplicacion2{
+              display: flex;
+                position: absolute;
+                top: 100px;
+                left: 0;
+                height: 100vh;
+                width: 100vw;
+                object-fit: cover;
+                z-index: -1;
+            }
+          }
           h5{
             display: flex;
             margin: auto;
