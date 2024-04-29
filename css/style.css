@@ -20,7 +20,7 @@ body {
   /*PARTE INFERIOR DE SERVICIOS*/
 }
 .mainindex .topindex {
-  background: url("../../imagenes/veterinario-perro-curar-freepik.png");
+  background-image: url("../../imagenes/veterinario-perro-curar-freepik.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -151,7 +151,7 @@ body {
 }
 
 .main-aplicacion {
-  background: url("../../imagenes/PETGO-FONDO.png");
+  background-image: url("../../imagenes/PETGO-FONDO.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -413,7 +413,7 @@ body {
   }
   /*QUERIE APLICACION*/
   .main-aplicacion {
-    background: url("../../imagenes/PETGO-SMALL.png");
+    background-image: url("../../imagenes/PETGO-SMALL.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -585,7 +585,7 @@ body {
     font-size: 40px;
   }
   body .main-aplicacion {
-    background: url("../../imagenes/PETGO-SMALL.png");
+    background-image: url("../../imagenes/PETGO-SMALL.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
