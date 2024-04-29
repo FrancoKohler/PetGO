@@ -20,10 +20,10 @@ body {
   /*PARTE INFERIOR DE SERVICIOS*/
 }
 .mainindex .topindex {
-  background-image: url('../../imagenes/veterinario-perro-curar-freepik.jpg');
-  background-size: cover;
-  background-position: top;
+  background-image: url("../../imagenes/veterinario-perro-curar-freepik.jpg");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 40rem;
   width: 100%;
 }
@@ -151,11 +151,12 @@ body {
 }
 
 .main-aplicacion {
-  background-size: cover;
+  background-image: url("../../imagenes/PETGO-FONDO.jpg");
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 100vh;
   width: 100vw;
-  background-position: center;
 }
 .main-aplicacion .texto-app {
   display: none;
@@ -411,6 +412,14 @@ body {
     font-size: 10px;
   }
   /*QUERIE APLICACION*/
+  .main-aplicacion {
+    background-image: url("../../imagenes/PETGO-SMALL.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
   .main-aplicacion .texto-app {
     display: block;
   }
@@ -432,7 +441,7 @@ body {
     font-weight: 800;
     display: flex;
     margin: auto;
-    padding-top: 300px;
+    padding-top: 250px;
     text-align: center;
   }
   .main-aplicacion div .apple {
@@ -576,10 +585,10 @@ body {
     font-size: 40px;
   }
   body .main-aplicacion {
+    background-image: url("../../imagenes/PETGO-SMALL.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url("../../imagenes/PETGO-FONDO.jpg");
     height: 100vh;
     width: 100vw;
   }
@@ -587,20 +596,35 @@ body {
     display: block;
   }
   body .main-aplicacion .texto-app h5 {
-    display: none;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    color: #EAEAEA;
+    font-size: 80px;
+    font-weight: 900;
   }
   body .main-aplicacion .texto-app .confianza {
-    display: none;
+    display: flex;
+    color: aqua;
+    font-size: 45px;
+    color: #EAEAEA;
+    font-weight: 800;
+    display: flex;
+    margin: auto;
+    padding-top: 300px;
+    text-align: center;
   }
   body .main-aplicacion div .apple {
     display: flex;
-    top: 650px;
-    left: 200px;
+    top: 350px;
+    left: 100px;
   }
   body .main-aplicacion div .android {
     display: flex;
-    top: 650px;
-    left: 400px;
+    top: 400px;
+    left: 100px;
   }
 }
 /*COMPONENTES*/

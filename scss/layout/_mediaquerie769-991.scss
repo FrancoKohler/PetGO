@@ -59,33 +59,48 @@ body{
 
     /*APLICACION*/
     .main-aplicacion {
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-image: url('../../imagenes/PETGO-FONDO.jpg');
+        background-image: url('../../imagenes/PETGO-SMALL.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
         height: 100vh;
         width: 100vw;
         .texto-app{display:block;
        
           h5{
-          display:none;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            text-align: center;
+            padding-top: 50px;
+            color: #EAEAEA;
+            font-size: 80px;
+            font-weight: 900;
           }
           .confianza{
-          display:none;
+            display: flex;
+            color: aqua;
+            font-size: 45px;
+            color: #EAEAEA;
+            font-weight: 800;
+            display: flex;
+            margin: auto;
+            padding-top: 300px;
+            text-align: center;
           
       }
          }
           div {
               .apple {
                 display: flex;
-                top: 650px;
-                left: 200px;
+                top: 350px;
+                left: 100px;
               }
           
               .android {
                 display: flex;
-                top: 650px;
-                left: 400px;
+                top: 400px;
+                left: 100px;
               }
             }
           
