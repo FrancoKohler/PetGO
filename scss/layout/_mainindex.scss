@@ -1,20 +1,13 @@
 .mainindex {
-  
   .topindex {
-    
-    
     height: 40rem;
     width: 100%;
-    div{height: 0%;
+    div {
+      height: 0%;
       width: 0%;
-      .imagen-fondo{
-        position: absolute;
-        top: 100px;
-        left: 0;
+      .imagen-fondo {
         width: 100%;
         height: 40rem;
-        object-fit: cover;
-        z-index: -1;
       }
     }
     div {

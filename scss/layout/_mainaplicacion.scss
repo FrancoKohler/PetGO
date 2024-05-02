@@ -1,44 +1,50 @@
-.main-aplicacion{
+.main-aplicacion {
   height: 100vh;
   width: 100%;
-  .texto-app{
-    display: none;
-  }
-    div{
-      .imagen-aplicacion{
-        position: absolute;
-        top: 100px;
-        left: 0;
-        height: 100vh;
-        width: 100%;
-        object-fit: cover;
-        z-index: -1;
-      }
-      .imagen-aplicacion2{
-        display:none
-      }
-    }
-  .texto-app{ display: none;
+  .texto-app {
+    display: block;
 
+    h5 {
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      text-align: center;
+      padding-top: 50px;
+      color: #eaeaea;
+      font-size: 80px;
+      font-weight: 900;
+    }
+    .confianza {
+      display: flex;
+      color: aqua;
+      font-size: 35px;
+      color: #eaeaea;
+      font-weight: 800;
+      margin: auto;
+      padding-top: 400px;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+    }
   }
+
   div {
     .apple {
-     height: 50px;
-     width: 200px;
-     position: absolute;
-     top: 500px;
-     left: 200px;
-     cursor: pointer;
+      height: 50px;
+      width: 200px;
+      position: absolute;
+      top: 500px;
+      left: 200px;
+      cursor: pointer;
     }
 
     .android {
-     height: 50px;
-     width: 200px;
-     position: absolute;
-     top: 550px;
-     left: 200px;
-     cursor: pointer;
+      height: 50px;
+      width: 200px;
+      position: absolute;
+      top: 550px;
+      left: 200px;
+      cursor: pointer;
     }
   }
 }
-  
